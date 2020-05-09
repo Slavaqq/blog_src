@@ -1,0 +1,31 @@
+baseURL = "https://slavaqq.github.io"
+languageCode = "cs"
+title = "SlavaQQ"
+theme = "noteworthy"
+
+paginate = 5
+summaryLength = 10
+
+[taxonomies]
+    tag = "tags"
+
+[author]
+    name = "slava"
+
+[params]
+    description = "Můj zápisník"
+
+[[menu.main]]
+    identifier = "tags"
+    name = "Štítky"
+    url = "/tags/"
+    weight = 1
+
+[[menu.main]]
+    identifier = "archives"
+    name = "Archiv"
+    url = "/archives/"
+    weight = 2
+
+
+
