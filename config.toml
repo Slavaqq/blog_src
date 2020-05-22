@@ -1,7 +1,7 @@
 baseURL = "https://slavaqq.github.io"
 languageCode = "cs"
 title = "SlavaQQ"
-theme = "noteworthy"
+theme = "ezhil"
 
 paginate = 5
 summaryLength = 10
@@ -10,10 +10,10 @@ summaryLength = 10
     tag = "tags"
 
 [author]
-    name = "slava"
+    name = "Slava"
 
 [params]
-    description = "Můj zápisník"
+    subtitle= "osobní zápisník"
 
 [[menu.main]]
     identifier = "tags"
@@ -24,8 +24,10 @@ summaryLength = 10
 [[menu.main]]
     identifier = "archives"
     name = "Archiv"
-    url = "/archives/"
+    url = "/posts/"
     weight = 2
 
-
-
+[[params.social]]
+name = "RSS"
+icon = "rss"
+url = "/index.xml"
